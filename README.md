@@ -7,8 +7,8 @@ It is a data structure used to store collection of strings for easy retrieval.
 
 #### Example Trie
 <pre>
-shivani@shivani-VirtualBox:~/Desktop/Tries$ g++ tries_example.cpp tries.cpp -o trie
-shivani@shivani-VirtualBox:~/Desktop/Tries$ ./trie 
+PS C:\Users\Manoj Kumar\Desktop\Trie> g++ tries_example.cpp tries.cpp -o trie
+PS C:\Users\Manoj Kumar\Desktop\Trie> .\trie.exe
 
  Word car is present.
  Word cart is present.
@@ -22,8 +22,8 @@ shivani@shivani-VirtualBox:~/Desktop/Tries$ ./trie
 
 #### Spell Checker
 <pre>
-shivani@shivani-VirtualBox:~/Desktop/Trie$ g++ spell_checker.cpp tries.cpp -o spell_checker
-shivani@shivani-VirtualBox:~/Desktop/Trie$ ./spell_checker 
+PS C:\Users\Manoj Kumar\Desktop\Trie> g++ spell_checker.cpp tries.cpp -o spell_checker
+PS C:\Users\Manoj Kumar\Desktop\Trie> .\spell_checker.exe
 cat ball bat bark cart
 cat ball bat <ins>bark</ins> cart
 </pre>
